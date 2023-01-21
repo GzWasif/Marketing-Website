@@ -1,0 +1,73 @@
+/* *{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.profileContainer{
+    height: 100vh;
+}
+
+.profileGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: 100px auto;
+   
+}
+
+.profileHeader{
+    display: flex;
+    grid-column: 1/ span 8;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ 
+}
+
+.profileSidebar{
+    display: flex;
+    grid-column: 1/span 1;
+    border-right: 1px solid black;
+    height: 100vh;
+    margin-top: 4px;
+    background-color: white;
+    justify-content: center;
+   
+}
+
+.profileContent{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/ span 7;
+    justify-content: center;
+    margin-top: 4px;
+    align-items: center;
+    background-color: white;
+}
+/* li{
+    
+    list-style-type: none;
+    padding: 5px;
+} */
+ 
+/* ul{
+    margin: 0;
+} */
+.spinnerEffect{
+    display: block;
+}
+/* .resetPassButton{
+    margin-top: 8px;
+    display: block;
+
+} */
+
+a{
+    color: black
+}
+
+a:hover{
+    color: grey;
+
+}

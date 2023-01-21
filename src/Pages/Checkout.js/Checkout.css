@@ -1,0 +1,64 @@
+.checkout-container{
+ 
+    margin: 250px 0;
+}
+
+.checkout-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 0 150px;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.checkout-grid-item-header{
+    display: flex;
+    grid-column: 1/ span 3;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.checkout-grid-item-1{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/ span 2;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.checkout-grid-item-2{
+display: flex;
+flex-direction: column;
+border: 1px solid white;
+padding: 15px;
+border-radius: 25px;
+background-color: white;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.checkout-grid-item-3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.checkout-grid-item-4{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.jani-na{
+
+    
+}

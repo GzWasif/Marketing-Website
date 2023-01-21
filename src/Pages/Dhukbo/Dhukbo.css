@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.dhukboContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+.dhukboHeader{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+}
+
+.dhukboMain{
+    padding: 32px 0;
+    
+}
+
+.dhukboFooter{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dhukboFormContainer{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 80px 60px;
+    
+    
+}
+
+
+.ButtonHolder{
+    display: flex;
+    /* justify-content: center; */
+}
+.btn1{
+    width: 400px;
+    padding: 10px;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px;
+    margin: 150px auto ;
+    background-color: #152238 ;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    align-content: center;
+    opacity: 1;
+    border-radius: 25px;
+   
+}
+
+.grid-item{
+   text-align: center;
+}
+
+input{
+    margin: 5px auto;
+    display: block;
+    
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chandu{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('/public/images/Justice\ League.jpg');
+    background-size: cover; */
+    background-color: white;
+    width: 100vw;
+    
+}
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px;
+    margin: auto auto;
+    background-color: white;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    align-content: center;
+    border-radius: 25px;
+    overflow: hidden;
+   
+
+    
+   
+}
+
+.grid-item{
+   text-align: center;
+   overflow: hidden;
+   object-fit: contain;
+}
+
+input{
+    margin: 5px auto;
+    display: block;
+    padding-left: 5px;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+
+    
+} 
+
+.signupLink{
+    color: black;
+}
+
+.loginImage{
+    opacity: .9;
+}
+
+/* input{
+    margin: 8px;
+} */
