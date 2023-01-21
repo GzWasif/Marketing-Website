@@ -23,6 +23,7 @@ const LogIn = () => {
     }
     if (user) {
       console.log(user);
+      localStorage.setItem("user", user);
       navigate("/Home");
     }
   }, [user, loading, navigate]);

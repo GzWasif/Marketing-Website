@@ -21,6 +21,7 @@ function TrialNavbar() {
   const navigate = useNavigate();
   const handleLogOut = async () => {
     const b = await logout(auth);
+    localStorage.setItem("user", null);
     navigate("/");
   };
   return (
